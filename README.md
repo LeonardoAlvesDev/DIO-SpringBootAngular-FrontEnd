@@ -1,6 +1,18 @@
+# Angular-SpringBoot
+
+API com Spring Boot, Spring Data H2, ANGULAR | Santander Bootcamp | Fullstack Developer na plataforma Digital Innovation One.
+
+# FrontEnd
+
+https://github.com/LeonardoAlvesDev/DIO-SpringBootAngular-FrontEnd
+
+# BackEnd
+
+https://github.com/LeonardoAlvesDev/DIO-SpringAngular-BackEnd
+
 # ClientRoom
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.7.
 
 ## Development server
 
@@ -12,7 +24,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
@@ -20,8 +32,28 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Verificar versão nodejs
+
+node -v
+
+### Verificar versão npm 
+
+npm -v
+
+### Instalar Angular 9
+
+npm install -g @angular/cli@9.0.0-rc.7
+
+### Verificar versão Angular
+
+ng --version
+
+### Criar projeto 
+
+ng new client-room
